@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/17apr.loader.js"></script>
+    <script src="Build/test build.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -27,9 +27,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/17apr.data",
-        frameworkUrl: "Build/17apr.framework.js",
-        codeUrl: "Build/17apr.wasm",
+        dataUrl: "Build/test build.data",
+        frameworkUrl: "Build/test build.framework.js",
+        codeUrl: "Build/test build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "strawberrycongee",
         productName: "haus",
